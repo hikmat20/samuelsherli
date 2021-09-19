@@ -1304,7 +1304,7 @@ require_once 'models/timesince.php';
 							$('#greeting').val('');
 							$('#alertMsg').html("<div class='alert alert-success'>" + result.msg + "</div>")
 							$(`<div class="item m-10">
-										<div class="tetimonial-wrapper text-white shadow text-center border-radius-10px p-30" style="border:3px solidd #BBAD62;background: rgb(45, 90, 61); backdrop-filter: blur(20px);">
+										<div class="tetimonial-wrapper text-danger shadow text-center border-radius-10px p-30" style="border:3px solidd #BBAD62;background: #fff; backdrop-filter: blur(20px);">
 											<p class="font-16">
 												` + result.greeting + `
 											</p>
