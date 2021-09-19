@@ -13,10 +13,10 @@ require_once 'models/timesince.php';
 		}
 	</style>
 	<script type="text/javascript" src="assets/1eba3f19/jquery.js"></script>
-	<title>Undangan Pernikahan Samuel & Sherli</title>
+	<title>Undangan Pernikahan Sherli & Samuel</title>
 	<link rel="shortcut icon" type="images/x-icon" href="/images/wedding/logo/samuelsherli.png">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<meta name="description" content="Undangan Pernikahan Samuel & Sherli" />
+	<meta name="description" content="Undangan Pernikahan Sherli & Samuel" />
 	<meta name="keywords" content="undangan digital, undangan pernikahan, video undangan, jasa undangan, web pernikahan, gratis, web nikah, undangan online" />
 	<meta name="robots" content="INDEX,FOLLOW" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
@@ -30,7 +30,7 @@ require_once 'models/timesince.php';
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="format-detection" content="telephone=no">
 	<link rel="canonical" href="#" />
-	<meta property="og:title" content="Undangan Pernikahan Samuel & Sherli" />
+	<meta property="og:title" content="Undangan Pernikahan Sherli & Samuel" />
 	<meta property="og:description" content="22 September 2021 - @nikahalal.com" />
 	<meta property="og:site_name" content="Undangan Digital Website Nikah Digital" />
 	<meta property="og:url" content="https://samuelsherli.nikahalal.com" />
@@ -302,18 +302,18 @@ require_once 'models/timesince.php';
 						<div class="rev_slider" data-version="5.0">
 							<ul>
 								<!-- SLIDE 1 -->
-								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
+								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Sherli & Samuel">
 									<!-- MAIN IMAGE -->
 									<img src="/images/wedding/slider/slide1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 									<div class="tp-caption tp-resizeme rs-parallaxlevel-1" id="rs-1-layer-1" data-x="['center']" data-hoffset="['0']" data-y="['bottom']" data-voffset="['30']" data-fontsize="['30']" data-lineheight="['50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;"><img src="/images/wedding/logo/logo-endah-bayu.png" alt="">
 								</li>
 								<!-- SLIDE 2 -->
-								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
+								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Sherli & Samuel">
 									<!-- MAIN IMAGE -->
 									<img src="/images/wedding/slider/slide2-.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 								</li>
 								<!-- SLIDE 3 -->
-								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
+								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Sherli & Samuel">
 									<!-- MAIN IMAGE -->
 									<img src="/images/wedding/slider/slide3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 								</li>
@@ -767,31 +767,46 @@ require_once 'models/timesince.php';
 													</div>
 												</div>
 											</div>
+										</a>
 									</div>
-									</a>
-								</div>
-								<!-- AMPLOP ONLINE  -->
-								<div class="col-md-12 text-center wow fadeInUp animation-delay1 mt-70 mb-70">
-									<div class=""><i class="fa fa-gift font-48" style="color: #bc4747;"></i></div>
-									<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
-									<h2>
-										<span class='typed-text-carouse font-32' style="color: #bc4747;" data-speed='300' data-back_delay='200' data-loop='true'>
-											<span>Tanda Kasih</span>
-										</span>
-									</h2>
-									<p class="text-black-555">Dengan segala hormat, bagi Bapak/Ibu yang ingin memberikan tanda kasih untuk kami,
-										dapat melalui:</p>
-									</h2>
-									<p class="text-black-555">Bank BRI</p>
-									</h2>
-									<p class="text-black-555"><b>SAMUEL SIKETANG - 813101004934539</b></p>
-									</h2>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
+
+			<section id="gallery" style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: auto;background-repeat: no;">
+				<div class="container-fluid pt-200 pl-0 pr-0 pb-0">
+					<div class="section-">
+						<div class="text-center">
+							<div class="">
+								<i class="fa fa-gift font-48" style="color: #bc4747;"></i>
+							</div>
+							<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
+							<h2>
+								<span class='typed-text-carouse font-32' style="color: #bc4747;" data-speed='300' data-back_delay='200' data-loop='true'>
+									<span>Tanda Kasih</span>
+								</span>
+							</h2>
+						</div>
+					</div>
+					<div class="row">
+						<!-- AMPLOP ONLINE  -->
+						<div class="col-md-12 text-center wow fadeInUp animation-delay1 mt-0 mb-70">
+
+							<p class="text-black-555">Dengan segala hormat, bagi Bapak/Ibu yang ingin memberikan tanda kasih untuk kami,
+								dapat melalui:</p>
+							</h2>
+							<p class="text-black-555">Bank BRI</p>
+							</h2>
+							<p class="text-black-555"><b>SAMUEL SIKETANG - 813101004934539</b></p>
+							</h2>
+						</div>
+					</div>
+				</div>
+			</section>
+
 
 			<section id="message" class="divider pb-0 bg-img-center-center" style="background-image: url(/images/wedding/bg/bg-03.jpg);background-position: top;background-size: contain;">
 				<!--<section id="message" class="divider pb-0 bg-img-center-bottom" data-bg-img="/images/navy-rustic/bg.png">-->
@@ -929,7 +944,7 @@ require_once 'models/timesince.php';
 
 						</div>
 						<?php
-						$sql = "SELECT * from greeting WHERE status='1' AND order_id = 'NH0921001'";
+						$sql = "SELECT * from greeting WHERE status='1' AND customer_id = 'CL21003'";
 						$greetings = mysqli_query($conn, $sql, 0);
 						// CU0921001
 						?>
@@ -941,7 +956,7 @@ require_once 'models/timesince.php';
 										<div class="testimonial-carousel" id="list-greeting">
 											<?php foreach ($greetings as $greeting) : ?>
 												<div class="item m-10">
-													<div class="tetimonial-wrapper text-white shadow text-center border-radius-10px p-30" style="border:3px solidd #BBAD62;background: rgb(45, 90, 61); backdrop-filter: blur(20px);">
+													<div class="tetimonial-wrapper text-danger text-bold shadow text-center border-radius-10px p-30" style="border:3px solidd #BBAD62;background: #fff; backdrop-filter: blur(20px);">
 														<p class="font-16">
 															<?= $greeting['greeting']; ?>
 														</p>
@@ -974,7 +989,7 @@ require_once 'models/timesince.php';
 							<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
 							<div class="form-normal pb-100 form-horizontal clearfix mt-50">
 								<div class="col-lg-12">
-									<a href="/guest-book.php?wed=samuelsherli&key=cl09001&date=<?= date('Y-m-d'); ?>" class="btn btn-danger btn-lg"><i class="fa fa-book"></i> Isi Buku Tamu</a>
+									<a href="/guest-book.php?wed=samuelsherli&key=cl21003&date=<?= date('Y-m-d'); ?>" class="btn btn-danger btn-lg"><i class="fa fa-book"></i> Isi Buku Tamu</a>
 								</div>
 							</div>
 						</div>
@@ -1025,7 +1040,7 @@ require_once 'models/timesince.php';
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 	<script>
-		const scriptURL = 'https://script.google.com/macros/s/AKfycbxKMFvJx71QlGFhN_D8YDshmURUFG8rcFxCSOkgi9j-SIxwtWU-19e2XWe3HsBfOrciyg/exec'
+		const scriptURL = 'https://script.google.com/macros/s/AKfycbx1f0iv0CLB8ayDyM8TUQUsNLP5rkRfecnd_HuGWE-IJiV60y0lFXH_KuRGlW3LGhHJ/exec'
 		const form = document.forms['form-rsvp']
 		const btnKirim = document.querySelector('#confirm')
 		const btnLoading = document.querySelector('#btnloading')

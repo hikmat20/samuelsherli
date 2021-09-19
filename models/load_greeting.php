@@ -1,7 +1,7 @@
 <?php
 require_once '../config/connection.php';
 
-$sql = mysqli_query($conn, "SELECT name, greeting,created_at from greeting order by created_at DESC");
+$sql = mysqli_query($conn, "SELECT name, greeting,created_at from greeting WHERE customer_id = 'CL21003' order by created_at DESC");
 foreach ($sql as $result) : ?>
     <div class="panel panel-default">
         <div class="panel-heading">

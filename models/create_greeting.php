@@ -2,9 +2,8 @@
 require_once '../config/connection.php';
 require_once '../models/timesince.php';
 
-
-$order_id = 'NH0821001';
-$customer_id = 'CU0721003';
+$order_id = 'NH0921001';
+$customer_id = 'CL21003';
 $nama = $greeting = '';
 $date = date('Y-m-d H:i:s');
 $callback = [];
