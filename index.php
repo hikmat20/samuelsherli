@@ -222,7 +222,7 @@ require_once 'models/timesince.php';
 <body id="content" class="noscroll has-side-panel side-panel-right fullwidth-page side-push-panel">
 	<!-- NAVIGATION BAWAH -->
 
-<nav class="nav d-hidden d-sm-block">
+	<nav class="nav d-hidden d-sm-block">
 		<a href="#home" class="nav__link">
 			<i class="material-icons nav__icon">favorite</i>
 			<span class="nav__text">HOME</span>
@@ -1186,7 +1186,7 @@ require_once 'models/timesince.php';
 
 
 	<audio loop preload='preload' type='audio/mp3' autoplay='false' id="myAudio">
-		<source src="images/wedding/music/Bill Withers - Just The Two Of Us .mp3">
+		<source src="images/wedding/music/Lagu.mp3">
 	</audio>
 
 	<a onclick="playAudio()" type="button" id='un-mute1' class='float'><img src='images/icon/music-mute.png' width='30px;'></a>
