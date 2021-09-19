@@ -14,9 +14,9 @@ require_once 'models/timesince.php';
 	</style>
 	<script type="text/javascript" src="assets/1eba3f19/jquery.js"></script>
 	<title>Undangan Pernikahan Yuli &amp; Bale</title>
-	<link rel="shortcut icon" type="images/x-icon" href="images/setting/favicon/baleyuli2.png">
+	<link rel="shortcut icon" type="images/x-icon" href="images/setting/favicon/samuelsherli.png">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<meta name="description" content="Undangan Pernikahan Yuli & Bale" />
+	<meta name="description" content="Undangan Pernikahan Samuel & Sherli" />
 	<meta name="keywords" content="undangan digital, undangan pernikahan, video undangan, jasa undangan, web pernikahan, gratis, web nikah, undangan online" />
 	<meta name="robots" content="INDEX,FOLLOW" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0" />
@@ -30,14 +30,14 @@ require_once 'models/timesince.php';
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="format-detection" content="telephone=no">
 	<link rel="canonical" href="#" />
-	<meta property="og:title" content="Undangan Pernikahan Yuli & Bale" />
-	<meta property="og:description" content="28 Agustus 2021 - @nikahalal.com" />
+	<meta property="og:title" content="Undangan Pernikahan Samuel & Sherli" />
+	<meta property="og:description" content="22 September 2021 - @nikahalal.com" />
 	<meta property="og:site_name" content="Undangan Digital Website Nikah Digital" />
 	<meta property="og:url" content="https://nikahalal.com" />
-	<meta property="og:image" content="images/wedding/logo/baleyuli2.png" />
-	<link itemprop="thumbnailUrl" href="images/wedding/logo/baleyuli2.png">
-	<span itemprop="thumbnail" itemscope itemtype="images/wedding/logo/baleyuli2.png">
-		<link itemprop="url" href="images/wedding/logo/baleyuli2.png">
+	<meta property="og:image" content="images/wedding/logo/samuelsherli.png" />
+	<link itemprop="thumbnailUrl" href="images/wedding/logo/samuelsherli.png">
+	<span itemprop="thumbnail" itemscope itemtype="images/wedding/logo/samuelsherli.png">
+		<link itemprop="url" href="images/wedding/logo/samuelsherli.png">
 	</span>
 	<!-- <meta property="fb:app_id" content="168414063189010" />
     	<meta property="fb:admins" content="1236159042" /> -->
@@ -302,18 +302,18 @@ require_once 'models/timesince.php';
 						<div class="rev_slider" data-version="5.0">
 							<ul>
 								<!-- SLIDE 1 -->
-								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Yuli & Bale">
+								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
 									<!-- MAIN IMAGE -->
 									<img src="images/wedding/slider/slide1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 									<div class="tp-caption tp-resizeme rs-parallaxlevel-1" id="rs-1-layer-1" data-x="['center']" data-hoffset="['0']" data-y="['bottom']" data-voffset="['30']" data-fontsize="['30']" data-lineheight="['50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;"><img src="images/wedding/logo/logo-endah-bayu.png" alt="">
 								</li>
 								<!-- SLIDE 2 -->
-								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Yuli & Bale">
+								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
 									<!-- MAIN IMAGE -->
 									<img src="images/wedding/slider/slide2-.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 								</li>
 								<!-- SLIDE 3 -->
-								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Yuli & Bale">
+								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
 									<!-- MAIN IMAGE -->
 									<img src="images/wedding/slider/slide3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 								</li>
@@ -332,7 +332,7 @@ require_once 'models/timesince.php';
 				<div class="container">
 					<div class="section-title">
 						<div class="row">
-							<div class="col-md-6 pt-100 col-md-offset-3 text-center pb-30 wow fadeInUp animation-delay1">
+							<div class="col-md-6 pt-150 col-md-offset-3 text-center pb-30 wow fadeInUp animation-delay1">
 								<h2 class="font-32" style="color:#bc4747">
 									<span class='typed-text-carouse' data-speed='300' data-back_delay='200' data-loop='true'>
 										<span>Pernikahan Sherli & Samuel</span>
@@ -340,8 +340,7 @@ require_once 'models/timesince.php';
 								</h2>
 								<img src="images/navy-rustic/section-title-after.svg" height="35px" alt="">
 								<p class="mt-50 font-16" style="color:#bc4747">" Salam Sejahtera,
-
-									Kami mengucap puji syukur dan terima kasih kepada Tuhan Yesus Kristus atas pernytaan serta kasih-Nya yang luar biasa sehingga kami dapat menyelenggarakan dan mengundang Bapak/Ibu/Saudara/Saudari yang terkasih untuk hadir di Acara Pernikahan putra-putri kami."</p>
+									Kami mengucap puji syukur dan terima kasih kepada Tuhan Yesus Kristus atas pernyataan serta kasih-Nya yang luar biasa sehingga kami dapat menyelenggarakan dan mengundang Bapak/Ibu/Saudara/Saudari yang terkasih untuk hadir di Acara Pernikahan putra-putri kami."</p>
 							</div>
 						</div>
 					</div>
@@ -363,13 +362,12 @@ require_once 'models/timesince.php';
 
 										<!-- Instagram Mempelai Wanita -->
 										<i class="fa fa-instagram" style="color:#bc4747"></i>
-										<a class="link-primary" href="https://www.instagram.com/sher_li08/" style="color:#bc4747">
-											sher_li08</a>
+										<a class="link-primary" href="https://www.instagram.com/sher_li08/" style="color:#bc4747">sher_li08</a>
 									</div>
 								</div>
 							</div>
 
-							<div class="col-xs-12 col-sm-4 wow fadeInLeft animation-delay1 animated">
+							<div class="col-xs-12 pb-100 col-sm-4 wow fadeInLeft animation-delay1 animated">
 								<div class="couple">
 									<div class="couple-thumb text-center">
 										<img class="img-fullwidh" width="200px" src="images/wedding/bride/cpp.png" alt="" style="border-radius:50%;border:5px solid #bc4747;transform: scaleX(-1);">
@@ -383,8 +381,7 @@ require_once 'models/timesince.php';
 										<p style="font-size:14px; color:#bc4747;">Putra Ke-4 <br>Bpk. Sahat Siketang & Ibu. Dina br Ginting</p>
 										<!-- Instagram Mempelai Pria -->
 										<i class="fa fa-instagram" style="color:#bc4747"></i>
-										<a href="https://www.instagram.com/samuel_uda/" style="color:#bc4747">
-											samuel_uda</a>
+										<a href="https://www.instagram.com/samuel_uda/" style="color:#bc4747">samuel_uda</a>
 									</div>
 								</div>
 							</div>
@@ -408,7 +405,6 @@ require_once 'models/timesince.php';
 								<h3 class="font-32 text-theme-colored">
 									<span class='typed-text-carouse' data-speed='300' data-back_delay='200' data-loop='true'>
 										<span>Acara Pernikahan </span>
-
 									</span>
 								</h3>
 								<img src="images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
@@ -423,7 +419,7 @@ require_once 'models/timesince.php';
 						<div class="section-content text-theme-colored">
 							<div class="row">
 								<div class="each-story animated fadeInUp wow pl-20 pr-20">
-									<div class="col-md-4 col-md-offset-2 pt-30 me-20 col-xs-12 text-center border-theme-colored border-3px" style="border-radius:1em">
+									<div class="col-md-4 col-md-offset-2 mb-20 pt-30 me-20 col-xs-12 text-center border-theme-colored border-3px" style="border-radius:1em">
 										<img src="images/wedding/event/genders.svg" class="ml-10" style="opacity: .8;" width="50px" alt="">
 										<h2 class="p-sm-20 mt-sm-0 font-32 text-theme-colored"><em>Pemberkatan Pernikahan</em></h2>
 										<div class="p-20 mb-20">
@@ -441,8 +437,9 @@ require_once 'models/timesince.php';
 										</div>
 
 									</div>
+
 									<!-- RESEPSI PERNIKAHAN -->
-									<div class="col-md-4 ml-20 pt-30 col-xs-12 text-center border-theme-colored border-3px" style="border-radius:1em">
+									<div class="col-md-4 pt-30 mb-30 ml-lg-20 col-xs-12 text-center border-theme-colored border-3px" style="border-radius:1em">
 										<img src="images/wedding/event/flowers.svg" class="ml-10" style="opacity: .8;" width="50px" alt="">
 										<h2 class="p-sm-20 mt-sm-0 font-32 text-theme-colored"><em>Resepsi Pernikahan</em></h2>
 										<div class="p-20 mb-20">
@@ -460,7 +457,7 @@ require_once 'models/timesince.php';
 										</div>
 									</div>
 
-									<div class="row mt-30 animated fadeIn">
+									<div class="row mt-80 pt-50 animated fadeIn">
 										<div class="col-md-8 col-md-offset-2 text-center">
 											<h3 class="font-32">
 												<span class='typed-text-carouse text-theme-colored font-32' data-speed='300' data-back_delay='200' data-loop='true'>
@@ -521,21 +518,20 @@ require_once 'models/timesince.php';
 			</section>
 			<!-- Section: Story -->
 			<!-- Lokasi Akad/Pemberkatan -->
-			<section id="maps" class="divider " style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: contain;">
+			<section id="maps" class="divider " style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: cover;background-repeat: no-repeat;">
 				<div class="container">
 					<div class="section-title">
 						<div class="row">
-							<div class="col-md-8 pt-100 pb-20 col-md-offset-2 text-center wow fadeInUp animation-delay1">
+							<div class="col-md-8 pt-100 pb-100 col-md-offset-2 text-center wow fadeInUp animation-delay1">
 								<i class="fas fa-map-marker-alt font-48" style="color: #bc4747;"></i>
 								<h2 class="font-32">
 									<span class='typed-text-carouse' style="color: #bc4747;" data-speed='300' data-back_delay='200' data-loop='true'>
 										<span>Lokasi Pemberkatan</span>
 									</span>
-
 								</h2>
 								<img src="images/navy-rustic/section-title-after.svg" height="35px" alt="">
 								<p class="text-black-555">Gereja GBKP Nageri Kutasuah - Desa Nageri , Kecamatan Munte, Kabupaten Karo, Sumatera Utara</p>
-								<div class="border-20px" style="border:solid 3px #bc4747;border-radius:20px">
+								<div class="border-20px text-center" style="border:solid 3px #bc4747;border-radius:20px">
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.980393743729!2d98.3602224147572!3d3.0998690977427232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3030f8fca22aa6fd%3A0x497f21c4ab19d677!2sGBKP%20Kutasuah%20Munte!5e0!3m2!1sen!2sid!4v1631775664711!5m2!1sen!2sid" width="400" height="420" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 								</div>
 
@@ -561,8 +557,8 @@ require_once 'models/timesince.php';
 								</h2>
 								<img src="images/navy-rustic/section-title-after.svg" height="35px" alt="">
 								<p class="text-black-555">Kediaman Mempelai Wanita - Desa Nageri (Gudang Jong Bapak Sherli), Kecamatan Munte, Kabupaten Karo, Sumatera Utara</p>
-								<div class="border-20px" style="border:solid 3px #bc4747;border-radius:20px">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.986500399055!2d98.34484031475719!3d3.0982469977438947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zM8KwMDUnNTMuNyJOIDk4wrAyMCc0OS4zIkU!5e0!3m2!1sen!2sid!4v1631795415443!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+								<div class="border-20px text-center" style="border:solid 3px #bc4747;border-radius:20px">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.986500399055!2d98.34484031475719!3d3.0982469977438947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zM8KwMDUnNTMuNyJOIDk4wrAyMCc0OS4zIkU!5e0!3m2!1sen!2sid!4v1631795415443!5m2!1sen!2sid" width="620" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 								</div>
 
 								<a class="btn btn-lg btn-dark text-white mt-30 animated" style="background-color: #bc4747;" href="https://goo.gl/maps/CEJCXUCyu6oxC2K68">Navigasi ke Lokasi</a>
@@ -574,7 +570,7 @@ require_once 'models/timesince.php';
 			</section>
 
 			<!-- Section: Gallery  -->
-			<section id="gallery" style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: contain;">
+			<section id="gallery" style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: auto;background-repeat: no;">
 				<div class="container-fluid pt-200 pl-0 pr-0 pb-0">
 					<div class="section-title">
 						<div class="row">
@@ -735,9 +731,7 @@ require_once 'models/timesince.php';
 												</div>
 											</div>
 										</a>
-									</div> -->
-									<!-- Portfolio Item End 7 -->
-									<!-- Portfolio Item Start 8 -->
+									</div>
 									<div class="portfolio-item">
 										<a href="images/wedding/gallery/big/gallery-08.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
@@ -756,9 +750,7 @@ require_once 'models/timesince.php';
 											</div>
 										</a>
 									</div>
-									<!-- Portfolio Item End 8 -->
-									<!-- Portfolio Item End 9 -->
-									<!-- Portfolio Item Start 9 -->
+
 									<div class="portfolio-item">
 										<a href="images/wedding/gallery/big/gallery-09.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
 											<div class="thumb">
@@ -992,14 +984,14 @@ require_once 'models/timesince.php';
 		</div>
 	</div>
 
-	<footer id="footer" class="footer pt-0 pb-0 bg-img-center-top" data-bg-img="images/wedding/bg/bg-03.jpg">
+	<footer id="footer" class="footer pt-0 pb-0 " data-bg-img="images/wedding/bg/bg-03.jpg">
 		<div class="container pb-70">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center wow fadeInUp animation-delay1">
 					<!-- <p>Help us to Capture Our Wedding Day Use The Hashtag #Endah&BayuWedding</p> -->
 					<h2>
 						<span class='typed-text-carouse font-32' data-speed='300' data-back_delay='200' data-loop='true'>
-							<span>Yuli & Bale</span>
+							<span>Sherli & Samuel</span>
 						</span>
 					</h2>
 					<p>Made by <a href="https://nikahalal.com" style="color:pink" />Nikahalal.com</a> | <a target="_blank" rel="no_follow" href="http://instagram.com/nikahalaldotcom" /><img src="https://image.flaticon.com/icons/png/16/174/174855.png" /> nikahalaldotcom</a></p>
