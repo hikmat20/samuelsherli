@@ -13,13 +13,8 @@ require_once 'models/timesince.php';
 		}
 	</style>
 	<script type="text/javascript" src="assets/1eba3f19/jquery.js"></script>
-<<<<<<< HEAD
-	<title>Undangan Pernikahan Sherli & Samuel</title>
-	<link rel="shortcut icon" type="images/x-icon" href="images/setting/favicon/baleyuli2.png">
-=======
-	<title>Undangan Pernikahan Yuli &amp; Bale</title>
+	<title>Undangan Pernikahan Samuel & Sherli</title>
 	<link rel="shortcut icon" type="images/x-icon" href="images/setting/favicon/samuelsherli.png">
->>>>>>> 210c6cafbd28da5351f624f6c76c8759d62c6c36
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta name="description" content="Undangan Pernikahan Samuel & Sherli" />
 	<meta name="keywords" content="undangan digital, undangan pernikahan, video undangan, jasa undangan, web pernikahan, gratis, web nikah, undangan online" />
@@ -35,11 +30,7 @@ require_once 'models/timesince.php';
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="format-detection" content="telephone=no">
 	<link rel="canonical" href="#" />
-<<<<<<< HEAD
-	<meta property="og:title" content="Undangan Pernikahan Sherli & Samuel" />
-=======
 	<meta property="og:title" content="Undangan Pernikahan Samuel & Sherli" />
->>>>>>> 210c6cafbd28da5351f624f6c76c8759d62c6c36
 	<meta property="og:description" content="22 September 2021 - @nikahalal.com" />
 	<meta property="og:site_name" content="Undangan Digital Website Nikah Digital" />
 	<meta property="og:url" content="https://nikahalal.com" />
