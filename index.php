@@ -518,7 +518,7 @@ require_once 'models/timesince.php';
 			</section>
 			<!-- Section: Story -->
 			<!-- Lokasi Akad/Pemberkatan -->
-			<section id="maps" class="divider " style="background-image: url(//images/wedding/bg/bg-04-2.png);background-position: top;background-size: cover;background-repeat: no-repeat;">
+			<section id="maps" class="divider " style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: cover;background-repeat: no-repeat;">
 				<div class="container">
 					<div class="section-title">
 						<div class="row">
@@ -544,7 +544,7 @@ require_once 'models/timesince.php';
 			</section>
 
 			<!-- Lokasi Acara/Pesta -->
-			<section class="divider " style="background-image: url(//images/wedding/bg/bg-04.png);background-position: top;background-size: contain;">
+			<section class="divider " style="background-image: url(/images/wedding/bg/bg-04.png);background-position: top;background-size: contain;">
 				<div class="container">
 					<div class="section-title">
 						<div class="row">
@@ -570,7 +570,7 @@ require_once 'models/timesince.php';
 			</section>
 
 			<!-- Section: Gallery  -->
-			<section id="gallery" style="background-image: url(//images/wedding/bg/bg-04-2.png);background-position: top;background-size: auto;background-repeat: no;">
+			<section id="gallery" style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: auto;background-repeat: no;">
 				<div class="container-fluid pt-200 pl-0 pr-0 pb-0">
 					<div class="section-title">
 						<div class="row">
@@ -793,8 +793,8 @@ require_once 'models/timesince.php';
 				</div>
 			</section>
 
-			<section id="message" class="divider pb-0 bg-img-center-center" style="background-image: url(//images/wedding/bg/bg-03.jpg);background-position: top;background-size: contain;">
-				<!--<section id="message" class="divider pb-0 bg-img-center-bottom" data-bg-img="//images/navy-rustic/bg.png">-->
+			<section id="message" class="divider pb-0 bg-img-center-center" style="background-image: url(/images/wedding/bg/bg-03.jpg);background-position: top;background-size: contain;">
+				<!--<section id="message" class="divider pb-0 bg-img-center-bottom" data-bg-img="/images/navy-rustic/bg.png">-->
 				<div class="container">
 					<div class="row">
 						<!-- RSVP -->
@@ -959,8 +959,8 @@ require_once 'models/timesince.php';
 				</div>
 			</section>
 
-			<section class="divider pb-0 bg-img-center-bottom" style="background-image: url(//images/wedding/bg/bg-04-2.png);background-position: top;background-size: unset;">
-				<!--<section id="message" class="divider pb-0 bg-img-center-bottom" data-bg-img="//images/navy-rustic/bg.png">-->
+			<section class="divider pb-0 bg-img-center-bottom" style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: unset;">
+				<!--<section id="message" class="divider pb-0 bg-img-center-bottom" data-bg-img="/images/navy-rustic/bg.png">-->
 				<div class="container">
 					<div class="row">
 						<!-- UCAPAN &  DOA -->
@@ -994,7 +994,7 @@ require_once 'models/timesince.php';
 							<span>Sherli & Samuel</span>
 						</span>
 					</h2>
-					<p>Made by <a href="https://nikahalal.com" style="color:pink" />Nikahalal.com</a> | <a target="_blank" rel="no_follow" href="http://instagram.com/nikahalaldotcom" /><img src="https://image.flaticon.com/icons/png/16/174/174855.png" /> nikahalaldotcom</a></p>
+					<p>Made by <a href="https://nikahalal.com" style="color:pink" />Nikahalal.com</a> | <a target="_blank" rel="no_follow" href="http:/instagram.com/nikahalaldotcom" /><img src="https:/image.flaticon.com/icons/png/16/174/174855.png" /> nikahalaldotcom</a></p>
 				</div>
 			</div>
 		</div>
@@ -1260,8 +1260,7 @@ require_once 'models/timesince.php';
 			document.getElementById("hitungmundur4").innerHTML = "" + detik + "<span>Detik</span>";
 			Hitung();
 		}
-	</script>
-	<script type="text/javascript">
+
 		// Send greeting
 		$(document).on('click', '#sendGreeting', function() {
 			// alert('send');
@@ -1312,22 +1311,6 @@ require_once 'models/timesince.php';
 				})
 			}
 		})
-
-		// jQuery(function($) {
-		// 	$("#Registration_payment_status").bind("click init", function() {
-		// 		$("#showDigitalPayment").toggle($("#Registration_payment_status").is(":checked"));
-		// 	}).trigger("init");
-		// 	$("#Registration_status").bind("click init", function() {
-		// 		$("#showGuest").toggle($("#Registration_status").is(":checked"));
-		// 	}).trigger("init");
-
-		// 	$("#Registration_payment_id").change(function() {
-		// 		var optionSelected = $(this).find("option:selected");
-		// 		var valueSelected = optionSelected.val();
-		// 		var textSelected = optionSelected.text();
-		// 		$("#copy").val(textSelected);
-		// 	});
-		// });
 	</script>
 </body>
 
