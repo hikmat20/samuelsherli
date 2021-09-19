@@ -14,7 +14,7 @@ require_once 'models/timesince.php';
 	</style>
 	<script type="text/javascript" src="assets/1eba3f19/jquery.js"></script>
 	<title>Undangan Pernikahan Samuel & Sherli</title>
-	<link rel="shortcut icon" type="images/x-icon" href="images/setting/favicon/samuelsherli.png">
+	<link rel="shortcut icon" type="images/x-icon" href="/images/wedding/logo/samuelsherli.png">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta name="description" content="Undangan Pernikahan Samuel & Sherli" />
 	<meta name="keywords" content="undangan digital, undangan pernikahan, video undangan, jasa undangan, web pernikahan, gratis, web nikah, undangan online" />
@@ -33,11 +33,11 @@ require_once 'models/timesince.php';
 	<meta property="og:title" content="Undangan Pernikahan Samuel & Sherli" />
 	<meta property="og:description" content="22 September 2021 - @nikahalal.com" />
 	<meta property="og:site_name" content="Undangan Digital Website Nikah Digital" />
-	<meta property="og:url" content="https://nikahalal.com" />
-	<meta property="og:image" content="images/wedding/logo/samuelsherli.png" />
-	<link itemprop="thumbnailUrl" href="images/wedding/logo/samuelsherli.png">
-	<span itemprop="thumbnail" itemscope itemtype="images/wedding/logo/samuelsherli.png">
-		<link itemprop="url" href="images/wedding/logo/samuelsherli.png">
+	<meta property="og:url" content="https://samuelsherli.nikahalal.com" />
+	<meta property="og:image" content="/images/wedding/logo/samuelsherli.png" />
+	<link itemprop="thumbnailUrl" href="/images/wedding/logo/samuelsherli.png">
+	<span itemprop="thumbnail" itemscope itemtype="/images/wedding/logo/samuelsherli.png">
+		<link itemprop="url" href="/images/wedding/logo/samuelsherli.png">
 	</span>
 	<!-- <meta property="fb:app_id" content="168414063189010" />
     	<meta property="fb:admins" content="1236159042" /> -->
@@ -87,7 +87,7 @@ require_once 'models/timesince.php';
 			position: fixed;
 			top: 0;
 			left: 0;
-			background-image: url('images/wedding/bg/bg-cover.jpg');
+			background-image: url('/images/wedding/bg/bg-cover.jpg');
 			background-position: center;
 			background-size: cover;
 			z-index: 9999;
@@ -302,20 +302,20 @@ require_once 'models/timesince.php';
 						<div class="rev_slider" data-version="5.0">
 							<ul>
 								<!-- SLIDE 1 -->
-								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
+								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
 									<!-- MAIN IMAGE -->
-									<img src="images/wedding/slider/slide1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
-									<div class="tp-caption tp-resizeme rs-parallaxlevel-1" id="rs-1-layer-1" data-x="['center']" data-hoffset="['0']" data-y="['bottom']" data-voffset="['30']" data-fontsize="['30']" data-lineheight="['50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;"><img src="images/wedding/logo/logo-endah-bayu.png" alt="">
+									<img src="/images/wedding/slider/slide1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+									<div class="tp-caption tp-resizeme rs-parallaxlevel-1" id="rs-1-layer-1" data-x="['center']" data-hoffset="['0']" data-y="['bottom']" data-voffset="['30']" data-fontsize="['30']" data-lineheight="['50']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;"><img src="/images/wedding/logo/logo-endah-bayu.png" alt="">
 								</li>
 								<!-- SLIDE 2 -->
-								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
+								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
 									<!-- MAIN IMAGE -->
-									<img src="images/wedding/slider/slide2-.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+									<img src="/images/wedding/slider/slide2-.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 								</li>
 								<!-- SLIDE 3 -->
-								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
+								<li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/images/wedding/bg/bg-02.jpg" data-rotate="0" data-saveperformance="off" data-title="Web Show" data-description="The Wedding of Samuel & Sherli">
 									<!-- MAIN IMAGE -->
-									<img src="images/wedding/slider/slide3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+									<img src="/images/wedding/slider/slide3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
 								</li>
 								</li>
 
@@ -328,7 +328,7 @@ require_once 'models/timesince.php';
 			</section>
 
 			<!-- Section: Couple -->
-			<section id="couple" class="divider pb-0 bg-img-center-bottom" data-stellar-background-ratio="0.9" data-bg-img="images/wedding/bg/bg-04-2.png">
+			<section id="couple" class="divider pb-0 bg-img-center-bottom" data-stellar-background-ratio="0.9" data-bg-img="/images/wedding/bg/bg-04-2.png">
 				<div class="container">
 					<div class="section-title">
 						<div class="row">
@@ -338,7 +338,7 @@ require_once 'models/timesince.php';
 										<span>Pernikahan Sherli & Samuel</span>
 									</span>
 								</h2>
-								<img src="images/navy-rustic/section-title-after.svg" height="35px" alt="">
+								<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
 								<p class="mt-50 font-16" style="color:#bc4747">" Salam Sejahtera,
 									Kami mengucap puji syukur dan terima kasih kepada Tuhan Yesus Kristus atas pernyataan serta kasih-Nya yang luar biasa sehingga kami dapat menyelenggarakan dan mengundang Bapak/Ibu/Saudara/Saudari yang terkasih untuk hadir di Acara Pernikahan putra-putri kami."</p>
 							</div>
@@ -350,7 +350,7 @@ require_once 'models/timesince.php';
 							<div class="col-xs-12 col-sm-4 col-sm-offset-2 wow fadeInRight animation-delay2 animated">
 								<div class="couple">
 									<div class="couple-thumb text-center">
-										<img class="img-fullwith" width="200px" src="images/wedding/bride/cpw.png" alt="" style="border-radius: 50%;border:5px solid #bc4747;transform: scaleX(-1);">
+										<img class="img-fullwith" width="200px" src="/images/wedding/bride/cpw.png" alt="" style="border-radius: 50%;border:5px solid #bc4747;transform: scaleX(-1);">
 									</div>
 									<div class="couple-detals text-center">
 										<h3 class="name">
@@ -370,7 +370,7 @@ require_once 'models/timesince.php';
 							<div class="col-xs-12 pb-100 col-sm-4 wow fadeInLeft animation-delay1 animated">
 								<div class="couple">
 									<div class="couple-thumb text-center">
-										<img class="img-fullwidh" width="200px" src="images/wedding/bride/cpp.png" alt="" style="border-radius:50%;border:5px solid #bc4747;transform: scaleX(-1);">
+										<img class="img-fullwidh" width="200px" src="/images/wedding/bride/cpp.png" alt="" style="border-radius:50%;border:5px solid #bc4747;transform: scaleX(-1);">
 									</div>
 									<div class="couple-detais text-center">
 										<h3 class="name">
@@ -397,7 +397,7 @@ require_once 'models/timesince.php';
 				</div>
 			</section>
 			<!-- Section: Our Story  -->
-			<section id="story" class="divider bg-img-center-bottom text-theme-colored" data-bg-img="images/wedding/bg/bg-03.jpg">
+			<section id="story" class="divider bg-img-center-bottom text-theme-colored" data-bg-img="/images/wedding/bg/bg-03.jpg">
 				<div class="container">
 					<div class="section-title">
 						<div class="row">
@@ -407,7 +407,7 @@ require_once 'models/timesince.php';
 										<span>Acara Pernikahan </span>
 									</span>
 								</h3>
-								<img src="images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
+								<img src="/images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
 								<p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/Saudari berkenan hadir untuk memberikan doa dan restu pada kedua mempelai. Kami sampaikan terima kasih atas kesediaan Bapak/Ibu/Saudara/Saudari untuk hadir dan mendoakan kami.
 									<br>
 									<br>
@@ -420,7 +420,7 @@ require_once 'models/timesince.php';
 							<div class="row">
 								<div class="each-story animated fadeInUp wow pl-20 pr-20">
 									<div class="col-md-4 col-md-offset-2 mb-20 pt-30 me-20 col-xs-12 text-center border-theme-colored border-3px" style="border-radius:1em">
-										<img src="images/wedding/event/genders.svg" class="ml-10" style="opacity: .8;" width="50px" alt="">
+										<img src="/images/wedding/event/genders.svg" class="ml-10" style="opacity: .8;" width="50px" alt="">
 										<h2 class="p-sm-20 mt-sm-0 font-32 text-theme-colored"><em>Pemberkatan Pernikahan</em></h2>
 										<div class="p-20 mb-20">
 											<div class="row">
@@ -440,7 +440,7 @@ require_once 'models/timesince.php';
 
 									<!-- RESEPSI PERNIKAHAN -->
 									<div class="col-md-4 pt-30 mb-30 ml-lg-20 col-xs-12 text-center border-theme-colored border-3px" style="border-radius:1em">
-										<img src="images/wedding/event/flowers.svg" class="ml-10" style="opacity: .8;" width="50px" alt="">
+										<img src="/images/wedding/event/flowers.svg" class="ml-10" style="opacity: .8;" width="50px" alt="">
 										<h2 class="p-sm-20 mt-sm-0 font-32 text-theme-colored"><em>Resepsi Pernikahan</em></h2>
 										<div class="p-20 mb-20">
 											<div class="row">
@@ -465,7 +465,7 @@ require_once 'models/timesince.php';
 												</span>
 											</h3>
 											<div class="title-icon">
-												<img src="images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
+												<img src="/images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
 											</div>
 										</div>
 										<style>
@@ -518,7 +518,7 @@ require_once 'models/timesince.php';
 			</section>
 			<!-- Section: Story -->
 			<!-- Lokasi Akad/Pemberkatan -->
-			<section id="maps" class="divider " style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: cover;background-repeat: no-repeat;">
+			<section id="maps" class="divider " style="background-image: url(//images/wedding/bg/bg-04-2.png);background-position: top;background-size: cover;background-repeat: no-repeat;">
 				<div class="container">
 					<div class="section-title">
 						<div class="row">
@@ -529,7 +529,7 @@ require_once 'models/timesince.php';
 										<span>Lokasi Pemberkatan</span>
 									</span>
 								</h2>
-								<img src="images/navy-rustic/section-title-after.svg" height="35px" alt="">
+								<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
 								<p class="text-black-555">Gereja GBKP Nageri Kutasuah - Desa Nageri , Kecamatan Munte, Kabupaten Karo, Sumatera Utara</p>
 								<div class="border-20px text-center" style="border:solid 3px #bc4747;border-radius:20px">
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.980393743729!2d98.3602224147572!3d3.0998690977427232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3030f8fca22aa6fd%3A0x497f21c4ab19d677!2sGBKP%20Kutasuah%20Munte!5e0!3m2!1sen!2sid!4v1631775664711!5m2!1sen!2sid" width="400" height="420" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -544,7 +544,7 @@ require_once 'models/timesince.php';
 			</section>
 
 			<!-- Lokasi Acara/Pesta -->
-			<section class="divider " style="background-image: url(/images/wedding/bg/bg-04.png);background-position: top;background-size: contain;">
+			<section class="divider " style="background-image: url(//images/wedding/bg/bg-04.png);background-position: top;background-size: contain;">
 				<div class="container">
 					<div class="section-title">
 						<div class="row">
@@ -555,7 +555,7 @@ require_once 'models/timesince.php';
 										<span>Lokasi Resepsi</span>
 									</span>
 								</h2>
-								<img src="images/navy-rustic/section-title-after.svg" height="35px" alt="">
+								<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
 								<p class="text-black-555">Kediaman Mempelai Wanita - Desa Nageri (Gudang Jong Bapak Sherli), Kecamatan Munte, Kabupaten Karo, Sumatera Utara</p>
 								<div class="border-20px text-center" style="border:solid 3px #bc4747;border-radius:20px">
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.986500399055!2d98.34484031475719!3d3.0982469977438947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zM8KwMDUnNTMuNyJOIDk4wrAyMCc0OS4zIkU!5e0!3m2!1sen!2sid!4v1631795415443!5m2!1sen!2sid" width="620" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -570,7 +570,7 @@ require_once 'models/timesince.php';
 			</section>
 
 			<!-- Section: Gallery  -->
-			<section id="gallery" style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: auto;background-repeat: no;">
+			<section id="gallery" style="background-image: url(//images/wedding/bg/bg-04-2.png);background-position: top;background-size: auto;background-repeat: no;">
 				<div class="container-fluid pt-200 pl-0 pr-0 pb-0">
 					<div class="section-title">
 						<div class="row">
@@ -582,7 +582,7 @@ require_once 'models/timesince.php';
 									</span>
 
 								</h2>
-								<img src="images/navy-rustic/section-title-after.svg" height="35px" alt="">
+								<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
 							</div>
 						</div>
 					</div>
@@ -595,9 +595,9 @@ require_once 'models/timesince.php';
 
 									<!-- Portfolio Item Start 1 -->
 									<div class="portfolio-item">
-										<a href="images/wedding/gallery/big/gallery-01.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-01.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
-												<img class="img-fullwidth photo" src="images/wedding/gallery/small/gallery-01.jpg" alt="Undangan Pernikahan Sherli & Samuel">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-01.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
 												<div class="text-holder">
 													<div class="title text-center">Sherli & Samuel</div>
@@ -615,9 +615,9 @@ require_once 'models/timesince.php';
 									<!-- Portfolio Item End 1 -->
 									<!-- Portfolio Item Start 2 -->
 									<div class="portfolio-item">
-										<a href="images/wedding/gallery/big/gallery-02.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-02.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
-												<img class="img-fullwidth photo" src="images/wedding/gallery/small/gallery-02.jpg" alt="Undangan Pernikahan Sherli & Samuel">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-02.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
 												<div class="text-holder">
 													<div class="title text-center">Sherli & Samuel</div>
@@ -635,9 +635,9 @@ require_once 'models/timesince.php';
 									<!-- Portfolio Item End 2 -->
 									<!-- Portfolio Item Start 3 -->
 									<div class="portfolio-item">
-										<a href="images/wedding/gallery/big/gallery-03.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-03.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
-												<img class="img-fullwidth photo" src="images/wedding/gallery/small/gallery-03.jpg" alt="Undangan Pernikahan Sherli & Samuel">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-03.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
 												<div class="text-holder">
 													<div class="title text-center">Sherli & Samuel</div>
@@ -655,9 +655,9 @@ require_once 'models/timesince.php';
 									<!-- Portfolio Item End 3 -->
 									<!-- Portfolio Item Start 4 -->
 									<div class="portfolio-item">
-										<a href="images/wedding/gallery/big/gallery-04.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-04.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
-												<img class="img-fullwidth photo" src="images/wedding/gallery/small/gallery-04.jpg" alt="Undangan Pernikahan Sherli & Samuel">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-04.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
 												<div class="text-holder">
 													<div class="title text-center">Sherli & Samuel</div>
@@ -675,9 +675,9 @@ require_once 'models/timesince.php';
 									<!-- Portfolio Item End 4 -->
 									<!-- Portfolio Item Start 5 -->
 									<div class="portfolio-item">
-										<a href="images/wedding/gallery/big/gallery-05.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-05.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
-												<img class="img-fullwidth photo" src="images/wedding/gallery/small/gallery-05.jpg" alt="Undangan Pernikahan Sherli & Samuel">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-05.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
 												<div class="text-holder">
 													<div class="title text-center">Sherli & Samuel</div>
@@ -695,9 +695,9 @@ require_once 'models/timesince.php';
 									<!-- Portfolio Item End 5 -->
 									<!-- Portfolio Item Start 6 -->
 									<div class="portfolio-item">
-										<a href="images/wedding/gallery/big/gallery-06.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-06.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
-												<img class="img-fullwidth photo" src="images/wedding/gallery/small/gallery-06.jpg" alt="Undangan Pernikahan Sherli & Samuel">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-06.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
 												<div class="text-holder">
 													<div class="title text-center">Sherli & Samuel</div>
@@ -715,9 +715,9 @@ require_once 'models/timesince.php';
 									<!-- Portfolio Item End 6 -->
 									<!-- Portfolio Item Start 7 -->
 									<div class="portfolio-item">
-										<a href="images/wedding/gallery/big/gallery-07.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-07.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
-												<img class="img-fullwidth photo" src="images/wedding/gallery/small/gallery-07.jpg" alt="Undangan Pernikahan Sherli & Samuel">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-07.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
 												<div class="text-holder">
 													<div class="title text-center">Sherli & Samuel</div>
@@ -733,9 +733,9 @@ require_once 'models/timesince.php';
 										</a>
 									</div>
 									<div class="portfolio-item">
-										<a href="images/wedding/gallery/big/gallery-08.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-08.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
-												<img class="img-fullwidth photo" src="images/wedding/gallery/small/gallery-08.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-08.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
 												<div class="overlay-shade"></div>
 												<div class="text-holder">
 													<div class="title text-center">Sherli & Samuel</div>
@@ -752,9 +752,9 @@ require_once 'models/timesince.php';
 									</div>
 
 									<div class="portfolio-item">
-										<a href="images/wedding/gallery/big/gallery-09.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
+										<a href="/images/wedding/gallery/big/gallery-09.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
 											<div class="thumb">
-												<img class="img-fullwidth photo" src="images/wedding/gallery/small/gallery-09.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-09.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
 												<div class="overlay-shade"></div>
 												<div class="text-holder">
 													<div class="title text-center">Sherli & Samuel</div>
@@ -773,7 +773,7 @@ require_once 'models/timesince.php';
 								<!-- AMPLOP ONLINE  -->
 								<div class="col-md-12 text-center wow fadeInUp animation-delay1 mt-70 mb-70">
 									<div class=""><i class="fa fa-gift font-48" style="color: #bc4747;"></i></div>
-									<img src="images/navy-rustic/section-title-after.svg" height="35px" alt="">
+									<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
 									<h2>
 										<span class='typed-text-carouse font-32' style="color: #bc4747;" data-speed='300' data-back_delay='200' data-loop='true'>
 											<span>Tanda Kasih</span>
@@ -793,8 +793,8 @@ require_once 'models/timesince.php';
 				</div>
 			</section>
 
-			<section id="message" class="divider pb-0 bg-img-center-center" style="background-image: url(/images/wedding/bg/bg-03.jpg);background-position: top;background-size: contain;">
-				<!--<section id="message" class="divider pb-0 bg-img-center-bottom" data-bg-img="/images/navy-rustic/bg.png">-->
+			<section id="message" class="divider pb-0 bg-img-center-center" style="background-image: url(//images/wedding/bg/bg-03.jpg);background-position: top;background-size: contain;">
+				<!--<section id="message" class="divider pb-0 bg-img-center-bottom" data-bg-img="//images/navy-rustic/bg.png">-->
 				<div class="container">
 					<div class="row">
 						<!-- RSVP -->
@@ -807,7 +807,7 @@ require_once 'models/timesince.php';
 									<span>R S V P</span>
 								</span>
 							</h2>
-							<img src="images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
+							<img src="/images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
 
 							<div class="form-normal form-horizontal clearfix mt-50">
 								<div class="col-lg-12">
@@ -873,7 +873,7 @@ require_once 'models/timesince.php';
 									<br>
 									<br>
 									<div class="text-center">
-										<img src="images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
+										<img src="/images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
 									</div>
 									<br>
 									<br>
@@ -892,7 +892,7 @@ require_once 'models/timesince.php';
 
 
 							</h2>
-							<img src="images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
+							<img src="/images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
 
 							<div class="form-normal form-horizontal clearfix mt-50">
 								<div class="col-lg-12">
@@ -919,7 +919,7 @@ require_once 'models/timesince.php';
 
 									</form>
 									<div class="text-center">
-										<img src="images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
+										<img src="/images/navy-rustic/section-title-after-2.svg" height="35px" alt="">
 									</div>
 
 									<div id="alertMsg" class="mt-50">
@@ -959,8 +959,8 @@ require_once 'models/timesince.php';
 				</div>
 			</section>
 
-			<section class="divider pb-0 bg-img-center-bottom" style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: unset;">
-				<!--<section id="message" class="divider pb-0 bg-img-center-bottom" data-bg-img="/images/navy-rustic/bg.png">-->
+			<section class="divider pb-0 bg-img-center-bottom" style="background-image: url(//images/wedding/bg/bg-04-2.png);background-position: top;background-size: unset;">
+				<!--<section id="message" class="divider pb-0 bg-img-center-bottom" data-bg-img="//images/navy-rustic/bg.png">-->
 				<div class="container">
 					<div class="row">
 						<!-- UCAPAN &  DOA -->
@@ -971,7 +971,7 @@ require_once 'models/timesince.php';
 									<span>Buku Tamu</span>
 								</span>
 							</h2>
-							<img src="images/navy-rustic/section-title-after.svg" height="35px" alt="">
+							<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
 							<div class="form-normal pb-100 form-horizontal clearfix mt-50">
 								<div class="col-lg-12">
 									<a href="/guest-book.php?wed=samuelsherli&key=cl09001&date=<?= date('Y-m-d'); ?>" class="btn btn-danger btn-lg"><i class="fa fa-book"></i> Isi Buku Tamu</a>
@@ -984,7 +984,7 @@ require_once 'models/timesince.php';
 		</div>
 	</div>
 
-	<footer id="footer" class="footer pt-0 pb-0 " data-bg-img="images/wedding/bg/bg-03.jpg">
+	<footer id="footer" class="footer pt-0 pb-0 " data-bg-img="/images/wedding/bg/bg-03.jpg">
 		<div class="container pb-70">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center wow fadeInUp animation-delay1">
@@ -1072,7 +1072,7 @@ require_once 'models/timesince.php';
 			// 	Swal.fire({
 			// 		title: 'Protokol Kesehatan!',
 			// 		text: 'Para tamu undangan wajib menaati peraturan protokol kesehatan.',
-			// 		imageUrl: 'images/setting/porkes/prokes.jpg',
+			// 		imageUrl: '/images/setting/porkes/prokes.jpg',
 			// 		imageWidth: '100%',
 			// 		imageAlt: 'Custom image',
 			// 	})
@@ -1176,11 +1176,11 @@ require_once 'models/timesince.php';
 
 
 	<audio loop preload='preload' type='audio/mp3' autoplay='false' id="myAudio">
-		<source src="images/wedding/music/Lagu.mp3">
+		<source src="/images/wedding/music/Lagu.mp3">
 	</audio>
 
-	<a onclick="playAudio()" type="button" id='un-mute1' class='float'><img src='images/icon/music-mute.png' width='30px;'></a>
-	<a onclick="pauseAudio()" type="button" id='mute1' class='float'><img src='images/icon/music.png' width='30px;'></a>
+	<a onclick="playAudio()" type="button" id='un-mute1' class='float'><img src='/images/icon/music-mute.png' width='30px;'></a>
+	<a onclick="pauseAudio()" type="button" id='mute1' class='float'><img src='/images/icon/music.png' width='30px;'></a>
 
 	<style>
 		.float {
@@ -1282,7 +1282,7 @@ require_once 'models/timesince.php';
 					async: false,
 					dataType: 'JSON',
 					beforeSend: function() {
-						$('#alertMsg').html("<img src='images/loader.gif' height='40px'>").fadeIn('slow').slideDown('slow')
+						$('#alertMsg').html("<img src='/images/loader.gif' height='40px'>").fadeIn('slow').slideDown('slow')
 					},
 					success: function(result) {
 						if (result.code == 1) {
