@@ -541,8 +541,8 @@ require_once 'models/timesince.php';
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.980393743729!2d98.3602224147572!3d3.0998690977427232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3030f8fca22aa6fd%3A0x497f21c4ab19d677!2sGBKP%20Kutasuah%20Munte!5e0!3m2!1sen!2sid!4v1631775664711!5m2!1sen!2sid" width="400" height="420" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 								</div>
 
-								<a class="btn btn-lg btn-dark btn-flat text-white mt-30 mb-20 animated" style="background-color: #bc4747;" href="https://goo.gl/maps/m1yBafz83tprJyA76">Navigasi ke Lokasi</a>
-								<!-- <a class="btn btn-lg btn-dark btn-flat text-white mt-30 animated" target="_blank" style="background-color: #bc4747;" href=https://www.google.com/maps/@-6.0835138,106.6211159,3a,75y,81.58h,90t/data=!3m7!1e1!3m5!1sy87pnJkTWlFuaAINFf_KNw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Dy87pnJkTWlFuaAINFf_KNw%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D81.57996%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?hl=en">Streat View</a> -->
+								<a class="btn btn-lg btn-dark text-white mt-30 mb-20 animated" style="background-color: #bc4747;" href="https://goo.gl/maps/m1yBafz83tprJyA76">Navigasi ke Lokasi</a>
+								<!-- <a class="btn btn-lg btn-dark text-white mt-30 animated" target="_blank" style="background-color: #bc4747;" href=https://www.google.com/maps/@-6.0835138,106.6211159,3a,75y,81.58h,90t/data=!3m7!1e1!3m5!1sy87pnJkTWlFuaAINFf_KNw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Dy87pnJkTWlFuaAINFf_KNw%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D81.57996%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?hl=en">Streat View</a> -->
 							</div>
 						</div>
 					</div>
@@ -567,8 +567,8 @@ require_once 'models/timesince.php';
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.986500399055!2d98.34484031475719!3d3.0982469977438947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zM8KwMDUnNTMuNyJOIDk4wrAyMCc0OS4zIkU!5e0!3m2!1sen!2sid!4v1631795415443!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 								</div>
 
-								<a class="btn btn-lg btn-dark btn-flat text-white mt-30 animated" style="background-color: #bc4747;" href="https://goo.gl/maps/CEJCXUCyu6oxC2K68">Navigasi ke Lokasi</a>
-								<!-- <a class="btn btn-lg btn-dark btn-flat text-white mt-30 animated" target="_blank" style="background-color: #bc4747;" href=https://www.google.com/maps/@-6.0835138,106.6211159,3a,75y,81.58h,90t/data=!3m7!1e1!3m5!1sy87pnJkTWlFuaAINFf_KNw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Dy87pnJkTWlFuaAINFf_KNw%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D81.57996%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?hl=en">Streat View</a> -->
+								<a class="btn btn-lg btn-dark text-white mt-30 animated" style="background-color: #bc4747;" href="https://goo.gl/maps/CEJCXUCyu6oxC2K68">Navigasi ke Lokasi</a>
+								<!-- <a class="btn btn-lg btn-dark text-white mt-30 animated" target="_blank" style="background-color: #bc4747;" href=https://www.google.com/maps/@-6.0835138,106.6211159,3a,75y,81.58h,90t/data=!3m7!1e1!3m5!1sy87pnJkTWlFuaAINFf_KNw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Dy87pnJkTWlFuaAINFf_KNw%26cb_client%3Dsearch.revgeo_and_fetch.gps%26w%3D96%26h%3D64%26yaw%3D81.57996%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?hl=en">Streat View</a> -->
 							</div>
 						</div>
 					</div>
@@ -872,8 +872,8 @@ require_once 'models/timesince.php';
 
 										<div class="form-group">
 											<div class="col-md-12">
-												<input class="btn btn-lg btn-dark btn-flat text-white mt-30 animated" style="background-color: #bc4747;" type="submit" id="confirm" value="Konfirmasi" />
-												<button class="btn hidden btn-flat text-white mt-30" type="button" id="btnloading" disabled style="background-color: #bc4747;">
+												<input class="btn btn-lg btn-dark text-white mt-30 animated" style="background-color: #bc4747;" type="submit" id="confirm" value="Konfirmasi" />
+												<button class="btn hidden text-white mt-30" type="button" id="btnloading" disabled style="background-color: #bc4747;">
 													<i class="fa fa-circle-o-notch fa-spin"></i>
 													Loading...
 												</button>
@@ -923,7 +923,7 @@ require_once 'models/timesince.php';
 
 										<div class="form-group">
 											<div class="col-md-12">
-												<input class="btn btn-lg btn-dark btn-flat text-white mt-30 animated" style="background-color: #bc4747;" type="button" id="sendGreeting" value="Kirim Ucapan" />
+												<input class="btn btn-lg btn-dark text-white mt-30 animated" style="background-color: #bc4747;" type="button" id="sendGreeting" value="Kirim Ucapan" />
 											</div>
 										</div>
 
