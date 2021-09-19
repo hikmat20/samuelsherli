@@ -1,0 +1,9 @@
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+ 
+RewriteCond %{HTTP_HOST} ^iqbalyuli\.nikahalal\.com$
+RewriteRule ^/(.*)$ "https\:\/\/iqbalyuli\.nikahalal\.com\/?=$1" [R=301,L]
+
