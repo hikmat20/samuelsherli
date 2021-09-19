@@ -13,7 +13,7 @@ require_once 'models/timesince.php';
 		}
 	</style>
 	<script type="text/javascript" src="assets/1eba3f19/jquery.js"></script>
-	<title>Undangan Pernikahan Yuli &amp; Bale</title>
+	<title>Undangan Pernikahan Sherli & Samuel</title>
 	<link rel="shortcut icon" type="images/x-icon" href="images/setting/favicon/baleyuli2.png">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta name="description" content="Undangan Pernikahan Yuli & Bale" />
@@ -30,8 +30,8 @@ require_once 'models/timesince.php';
 	<meta name="HandheldFriendly" content="true" />
 	<meta name="format-detection" content="telephone=no">
 	<link rel="canonical" href="#" />
-	<meta property="og:title" content="Undangan Pernikahan Yuli & Bale" />
-	<meta property="og:description" content="28 Agustus 2021 - @nikahalal.com" />
+	<meta property="og:title" content="Undangan Pernikahan Sherli & Samuel" />
+	<meta property="og:description" content="22 September 2021 - @nikahalal.com" />
 	<meta property="og:site_name" content="Undangan Digital Website Nikah Digital" />
 	<meta property="og:url" content="https://nikahalal.com" />
 	<meta property="og:image" content="images/wedding/logo/baleyuli2.png" />
@@ -1237,9 +1237,9 @@ require_once 'models/timesince.php';
 
 		function Hitung() {
 			tahun = 2021;
-			bulan = 08;
-			hari = 28;
-			jam = 10;
+			bulan = 09;
+			hari = 22;
+			jam = 14;
 			menit = 00;
 			detik = 00;
 
