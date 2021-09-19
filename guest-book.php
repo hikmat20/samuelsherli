@@ -10,13 +10,12 @@ $wed = $_GET['wed'];
 $key = $_GET['key'];
 
 if ($wed == "" ||  $key == "") {
-    header('location:index1.php');
+    header('location:index.php');
     return false;
-} elseif ($wed != "samuelsherli" ||  $key != "cl09001") {
-    header('location:index2.php');
+} elseif ($wed != "samuelsherli" ||  $key != "cl21003") {
+    header('location:index.php');
     return false;
 }
-
 // wed = samuelsherli & key = cl09001
 ?>
 <!DOCTYPE html>
