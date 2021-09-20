@@ -378,7 +378,7 @@ require_once 'models/timesince.php';
 												<span>Samuel Siketang</span>
 											</span>
 										</h3>
-										<p style="font-size:14px; color:#bc4747;">Putra Ke-4 <br>Bpk. Sahat Siketang & Ibu. Dina br Ginting</p>
+										<p style="font-size:14px; color:#bc4747;">Putra Ke-4 <br>Bapak. Sahat Siketang & Ibu. Dina br Ginting</p>
 										<!-- Instagram Mempelai Pria -->
 										<i class="fa fa-instagram" style="color:#bc4747"></i>
 										<a href="https://www.instagram.com/samuel_uda/" style="color:#bc4747">samuel_uda</a>
@@ -431,7 +431,7 @@ require_once 'models/timesince.php';
 														<br>
 														<h4 class="text-theme-colored">Bertempat di</h4>
 														<p>Gereja GBKP Nageri Kutasuah</p>
-														<p>Desa Nageri, Kecamaten Munthe, Medan, Sumatra utara </p>
+														<p>Desa Nageri, Kecamatan Munthe, Medan, Sumatra Utara</p>
 												</div>
 											</div>
 										</div>
@@ -451,7 +451,7 @@ require_once 'models/timesince.php';
 														<br>
 														<h4 class="text-theme-colored">Bertempat di</h4>
 														<p>Kediaman Mempelai Wanita</p>
-														<p>Desa Nageri, Kecamaten Munthe, Medan, Sumatra utara </p>
+														<p>Desa Nageri, Kecamatan Munthe, Medan, Sumatra Utara </p>
 												</div>
 											</div>
 										</div>
@@ -530,7 +530,7 @@ require_once 'models/timesince.php';
 									</span>
 								</h2>
 								<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
-								<p class="text-black-555">Gereja GBKP Nageri Kutasuah - Desa Nageri , Kecamatan Munte, Kabupaten Karo, Sumatera Utara</p>
+								<p class="text-black-555">Gereja GBKP Nageri Kutasuah - Desa Nageri , Kecamatan Munte, Kabupaten Karo, Sumatra Utara</p>
 								<div class="border-20px text-center" style="border:solid 3px #bc4747;border-radius:20px">
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.980393743729!2d98.3602224147572!3d3.0998690977427232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3030f8fca22aa6fd%3A0x497f21c4ab19d677!2sGBKP%20Kutasuah%20Munte!5e0!3m2!1sen!2sid!4v1631775664711!5m2!1sen!2sid" width="400" height="420" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 								</div>
@@ -556,7 +556,7 @@ require_once 'models/timesince.php';
 									</span>
 								</h2>
 								<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
-								<p class="text-black-555">Kediaman Mempelai Wanita - Desa Nageri (Gudang Jong Bapak Sherli), Kecamatan Munte, Kabupaten Karo, Sumatera Utara</p>
+								<p class="text-black-555">Kediaman Mempelai Wanita - Desa Nageri (Gudang Jong Bapak Sherli), Kecamatan Munte, Kabupaten Karo, Sumatra Utara</p>
 								<div class="border-20px text-center" style="border:solid 3px #bc4747;border-radius:20px">
 									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.986500399055!2d98.34484031475719!3d3.0982469977438947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0!2zM8KwMDUnNTMuNyJOIDk4wrAyMCc0OS4zIkU!5e0!3m2!1sen!2sid!4v1631795415443!5m2!1sen!2sid" width="620" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 								</div>
