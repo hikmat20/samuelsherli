@@ -611,7 +611,7 @@ require_once 'models/timesince.php';
 
 									<!-- Portfolio Item Start 1 -->
 									<div class="portfolio-item">
-										<a href="/images/wedding/gallery/big/gallery-01.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-01.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
 												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-01.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
@@ -631,7 +631,7 @@ require_once 'models/timesince.php';
 									<!-- Portfolio Item End 1 -->
 									<!-- Portfolio Item Start 2 -->
 									<div class="portfolio-item">
-										<a href="/images/wedding/gallery/big/gallery-02.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-02.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
 												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-02.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
@@ -651,7 +651,7 @@ require_once 'models/timesince.php';
 									<!-- Portfolio Item End 2 -->
 									<!-- Portfolio Item Start 3 -->
 									<div class="portfolio-item">
-										<a href="/images/wedding/gallery/big/gallery-03.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-03.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
 												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-03.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
@@ -671,7 +671,7 @@ require_once 'models/timesince.php';
 									<!-- Portfolio Item End 3 -->
 									<!-- Portfolio Item Start 4 -->
 									<div class="portfolio-item">
-										<a href="/images/wedding/gallery/big/gallery-04.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-04.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
 												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-04.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
@@ -687,11 +687,11 @@ require_once 'models/timesince.php';
 												</div>
 											</div>
 										</a>
-									</div> -->
+									</div>
 									<!-- Portfolio Item End 4 -->
 									<!-- Portfolio Item Start 5 -->
 									<div class="portfolio-item">
-										<a href="/images/wedding/gallery/big/gallery-05.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-05.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
 												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-05.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
@@ -707,11 +707,11 @@ require_once 'models/timesince.php';
 												</div>
 											</div>
 										</a>
-									</div> -->
+									</div>
 									<!-- Portfolio Item End 5 -->
 									<!-- Portfolio Item Start 6 -->
 									<div class="portfolio-item">
-										<a href="/images/wedding/gallery/big/gallery-06.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-06.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
 												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-06.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
@@ -727,11 +727,11 @@ require_once 'models/timesince.php';
 												</div>
 											</div>
 										</a>
-									</div> -->
+									</div>
 									<!-- Portfolio Item End 6 -->
 									<!-- Portfolio Item Start 7 -->
 									<div class="portfolio-item">
-										<a href="/images/wedding/gallery/big/gallery-07.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-07.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
 												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-07.jpg" alt="Undangan Pernikahan Sherli & Samuel">
 												<div class="overlay-shade"></div>
@@ -749,7 +749,7 @@ require_once 'models/timesince.php';
 										</a>
 									</div>
 									<div class="portfolio-item">
-										<a href="/images/wedding/gallery/big/gallery-08.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
+										<a href="/images/wedding/gallery/big/gallery-08.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel">
 											<div class="thumb">
 												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-08.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
 												<div class="overlay-shade"></div>
@@ -760,7 +760,7 @@ require_once 'models/timesince.php';
 													<div class="icons-holder-inner">
 														<div class="social-icons icon-sm icon-dark icon-circled icon-theme-colored">
 															<i class="fa fa-plus text-white"></i>
-														</div> -->
+														</div>
 													</div>
 												</div>
 											</div>
@@ -768,7 +768,7 @@ require_once 'models/timesince.php';
 									</div>
 
 									<div class="portfolio-item">
-										<a href="/images/wedding/gallery/big/gallery-09.jpeg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
+										<a href="/images/wedding/gallery/big/gallery-09.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
 											<div class="thumb">
 												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-09.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
 												<div class="overlay-shade"></div>
@@ -779,7 +779,170 @@ require_once 'models/timesince.php';
 													<div class="icons-holder-inner">
 														<div class="social-icons icon-sm icon-dark icon-circled icon-theme-colored">
 															<i class="fa fa-plus text-white"></i>
-														</div> -->
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+
+									<div class="portfolio-item">
+										<a href="/images/wedding/gallery/big/gallery-10.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
+											<div class="thumb">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-10.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
+												<div class="overlay-shade"></div>
+												<div class="text-holder">
+													<div class="title text-center">Sherli & Samuel</div>
+												</div>
+												<div class="icons-holder">
+													<div class="icons-holder-inner">
+														<div class="social-icons icon-sm icon-dark icon-circled icon-theme-colored">
+															<i class="fa fa-plus text-white"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="portfolio-item">
+										<a href="/images/wedding/gallery/big/gallery-11.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
+											<div class="thumb">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-11.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
+												<div class="overlay-shade"></div>
+												<div class="text-holder">
+													<div class="title text-center">Sherli & Samuel</div>
+												</div>
+												<div class="icons-holder">
+													<div class="icons-holder-inner">
+														<div class="social-icons icon-sm icon-dark icon-circled icon-theme-colored">
+															<i class="fa fa-plus text-white"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="portfolio-item">
+										<a href="/images/wedding/gallery/big/gallery-12.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
+											<div class="thumb">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-12.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
+												<div class="overlay-shade"></div>
+												<div class="text-holder">
+													<div class="title text-center">Sherli & Samuel</div>
+												</div>
+												<div class="icons-holder">
+													<div class="icons-holder-inner">
+														<div class="social-icons icon-sm icon-dark icon-circled icon-theme-colored">
+															<i class="fa fa-plus text-white"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="portfolio-item">
+										<a href="/images/wedding/gallery/big/gallery-13.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
+											<div class="thumb">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-13.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
+												<div class="overlay-shade"></div>
+												<div class="text-holder">
+													<div class="title text-center">Sherli & Samuel</div>
+												</div>
+												<div class="icons-holder">
+													<div class="icons-holder-inner">
+														<div class="social-icons icon-sm icon-dark icon-circled icon-theme-colored">
+															<i class="fa fa-plus text-white"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="portfolio-item">
+										<a href="/images/wedding/gallery/big/gallery-14.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
+											<div class="thumb">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-14.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
+												<div class="overlay-shade"></div>
+												<div class="text-holder">
+													<div class="title text-center">Sherli & Samuel</div>
+												</div>
+												<div class="icons-holder">
+													<div class="icons-holder-inner">
+														<div class="social-icons icon-sm icon-dark icon-circled icon-theme-colored">
+															<i class="fa fa-plus text-white"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="portfolio-item">
+										<a href="/images/wedding/gallery/big/gallery-15.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
+											<div class="thumb">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-15.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
+												<div class="overlay-shade"></div>
+												<div class="text-holder">
+													<div class="title text-center">Sherli & Samuel</div>
+												</div>
+												<div class="icons-holder">
+													<div class="icons-holder-inner">
+														<div class="social-icons icon-sm icon-dark icon-circled icon-theme-colored">
+															<i class="fa fa-plus text-white"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="portfolio-item">
+										<a href="/images/wedding/gallery/big/gallery-16.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
+											<div class="thumb">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-16.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
+												<div class="overlay-shade"></div>
+												<div class="text-holder">
+													<div class="title text-center">Sherli & Samuel</div>
+												</div>
+												<div class="icons-holder">
+													<div class="icons-holder-inner">
+														<div class="social-icons icon-sm icon-dark icon-circled icon-theme-colored">
+															<i class="fa fa-plus text-white"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="portfolio-item">
+										<a href="/images/wedding/gallery/big/gallery-17.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
+											<div class="thumb">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-17.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
+												<div class="overlay-shade"></div>
+												<div class="text-holder">
+													<div class="title text-center">Sherli & Samuel</div>
+												</div>
+												<div class="icons-holder">
+													<div class="icons-holder-inner">
+														<div class="social-icons icon-sm icon-dark icon-circled icon-theme-colored">
+															<i class="fa fa-plus text-white"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="portfolio-item">
+										<a href="/images/wedding/gallery/big/gallery-18.jpg" data-lightbox="gallery-item" title="Undangan Pernikahan Sherli & Samuel<">
+											<div class="thumb">
+												<img class="img-fullwidth photo" src="/images/wedding/gallery/small/gallery-18.jpg" alt="Undangan Pernikahan Sherli & Samuel<">
+												<div class="overlay-shade"></div>
+												<div class="text-holder">
+													<div class="title text-center">Sherli & Samuel</div>
+												</div>
+												<div class="icons-holder">
+													<div class="icons-holder-inner">
+														<div class="social-icons icon-sm icon-dark icon-circled icon-theme-colored">
+															<i class="fa fa-plus text-white"></i>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -792,7 +955,7 @@ require_once 'models/timesince.php';
 				</div>
 			</section>
 
-			<section id="gallery" style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: auto;background-repeat: no;">
+			<section style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: auto;background-repeat: no;">
 				<div class="container-fluid pt-200 pl-0 pr-0 pb-0">
 					<div class="section-">
 						<div class="text-center">
