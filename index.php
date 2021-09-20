@@ -1188,7 +1188,7 @@ require_once 'models/timesince.php';
 							<span>Sherli & Samuel</span>
 						</span>
 					</h2>
-					<p>Made by <a href="https://nikahalal.com" style="color:pink" />Nikahalal.com</a> | <a target="_blank" rel="no_follow" href="http:/instagram.com/nikahalaldotcom" /><img src="https:/image.flaticon.com/icons/png/16/174/174855.png" /> nikahalaldotcom</a></p>
+					<p>Made by <a href="https://nikahalal.com" style="color:pink" />Nikahalal.com</a> | <a target="_blank" rel="no_follow" href="https:/instagram.com/nikahalaldotcom" /><i class="fa fa-instagram"></i> nikahalaldotcom</a></p>
 				</div>
 			</div>
 		</div>
