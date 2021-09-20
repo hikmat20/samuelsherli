@@ -8,6 +8,7 @@ if (!isset($_GET['wed']) && !isset($_GET['key'])) {
 
 $wed = $_GET['wed'];
 $key = $_GET['key'];
+$date = $_GET['date'];
 
 if ($wed == "" ||  $key == "") {
     header('location:index.php');
@@ -232,9 +233,9 @@ if ($wed == "" ||  $key == "") {
 
 </head>
 
-<body id="content" class="has-side-panel side-panel-right fullwidth-page side-push-panel" style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: contain;background-attachment: fixed;">
+<body id="content" class="has-side-panel side-panel-right fullwidth-page side-push-panel" style="background-image: url(/images/wedding/bg/bg-04-2.png);background-position: top;background-size: cover;background-attachment: fixed;">
     <!-- NAVIGATION BAWAH -->
-    <nav class="nav d-hidden d-sm-block">
+    <!-- <nav class="nav d-hidden d-sm-block">
         <a href="#home" class="nav__link">
             <i class="material-icons nav__icon">favorite</i>
             <span class="nav__text">HOME</span>
@@ -255,8 +256,8 @@ if ($wed == "" ||  $key == "") {
             <i class="material-icons nav__icon">mark_chat_read</i>
             <span class="nav__text">UCAPAN</span>
         </a>
-    </nav>
-
+    </nav> -->
+    <input type="hidden" name="date" id="date" value="<?= $date; ?>">
     <div id="wrapper" class="clearfix">
         <!-- Header -->
 
@@ -277,8 +278,8 @@ if ($wed == "" ||  $key == "") {
                                 </div>
 
                                 <div class="p-20 text-center">
-                                    <button type="button" id="btn-guest-book" class="btn btn-danger"><i class="fa fa-book"></i> Isi Buku Tamu</button>
-                                    <button type="button" id="btn-souvenir" class="btn btn-warning"><i class="fa fa-tag"></i> Ambil Souvenir</button>
+                                    <button type="button" id="btn-guest-book" class="btn btn-danger mb-5"><i class="fa fa-book"></i> Isi Buku Tamu</button>
+                                    <button type="button" id="btn-souvenir" class="btn btn-warning mb-5"><i class="fa fa-tag"></i> Ambil Souvenir</button>
                                     <a href="/index.php" class="btn btn-success"><i class="fa fa-reply"></i> Ke Undangan</a>
                                 </div>
                             </div>
@@ -304,7 +305,7 @@ if ($wed == "" ||  $key == "") {
                             <div class="row" id="guest_book" style="display: none;">
                                 <div class="col-md-10 p-30 col-md-offset-1">
                                     <div id="alert"></div>
-                                    <form id="form-guest-book" class="form-horizontal" role="form">
+                                    <form autocomplete="off" name="form-guest-book" id="form-guest-book" class="form-horizontal" role="form">
                                         <div class="form-group">
                                             <label for="" class="col-md-2 text-left text-gray-darkgray">Handphone</label>
                                             <div class="col-sm-10">
@@ -342,9 +343,9 @@ if ($wed == "" ||  $key == "") {
         </div>
     </div>
 
-    <!-- <audio loop type='audio/mp3' autoplay='false' id="myAudio"> -->
-    <!-- <source src="images/wedding/music/Bill Withers - Just The Two Of Us .mp3"> -->
-    <!-- </audio> -->
+    <audio loop type='audio/mp3' autoplay='false' id="myAudio"> -->
+        <source src="images/wedding/music/Lagu.mp3">
+    </audio>
 
     <!-- BACK TO TOP -->
     <!-- <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a> -->
@@ -380,7 +381,31 @@ if ($wed == "" ||  $key == "") {
             let formdata = new FormData($('#form-guest-book')[0]);
             let phone = $('#handphone').val();
             let name = $('#guest_name').val();
-            console.log(formdata);
+            let date_event = $('#date').val();
+            let date = '<?= date('Y-m-d'); ?>';
+            // alert(date_event + ", " + date)
+            if (date < date_event) {
+                Swal.fire({
+                    title: 'Perhatian!',
+                    text: 'Acara Pernikahan Belum dimulai.',
+                    type: 'warning',
+                    timer: 3000,
+                    showConfirmButton: false
+                })
+                return false;
+            }
+
+            if (date > date_event) {
+                Swal.fire({
+                    title: 'Perhatian!',
+                    text: 'Acara Pernikahan Sudah berlalu.',
+                    type: 'warning',
+                    timer: 3000,
+                    showConfirmButton: false
+                })
+                return false;
+            }
+
             if (!phone) {
                 $('#alert').html(`
                 <div class="alert alert-warning">
@@ -393,34 +418,111 @@ if ($wed == "" ||  $key == "") {
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                     <strong>Peringatan!</strong> Nomor Handphone tidak valid.
                 </div>`).fadeIn('ease')
+                return false;
             } else if (!name) {
                 $('#alert').html(`
                 <div class="alert alert-warning">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                     <strong>Peringatan!</strong> Nama harus diisi.
                 </div>`).fadeIn('ease')
+
             }
             setTimeout(function() {
-                $('#alert').html('').fadeOut('ease');
+                $('#alert').fadeOut('ease').html('');
             }, 3000)
+
+            // return false;
 
             if (formdata) {
                 $.ajax({
                     url: '/models/guestBook.php',
                     data: formdata,
+                    dataType: 'JSON',
                     type: 'POST',
                     contentType: false,
                     cache: false,
                     processData: false,
                     success: function(result) {
-
+                        if (result.status == 1) {
+                            send_to_sheet()
+                            Swal.fire({
+                                title: 'Terima Kasih!',
+                                text: result.msg,
+                                type: 'success',
+                                showConfirmButton: false,
+                                timer: 3000
+                            }).then(() => {
+                                location.reload();
+                            })
+                        } else if (result.status == 2) {
+                            Swal.fire({
+                                title: 'Kamu Sudah Terdaftar!',
+                                text: result.msg,
+                                type: 'info',
+                                // timer: 3000,
+                                showCancelButton: true,
+                                confirmButtonText: 'Lihat Data Tamu',
+                                cancelButtonText: 'Lihat Nanti',
+                            }).then((res) => {
+                                console.log(res.value);
+                                if (res.value) {
+                                    location.href = "/guest-book.php?wed=samuelsherli&key=cl21003&date=2021-09-22&guset=" + result.phone;
+                                }
+                            })
+                        } else {
+                            Swal.fire({
+                                title: 'Failed!',
+                                text: result.msg,
+                                type: 'warning',
+                                showConfirmButton: false,
+                                timer: 3000
+                            })
+                        }
                     },
                     error: function(result) {
-
+                        Swal.fire({
+                            title: 'Error!',
+                            text: result.msg,
+                            type: 'error',
+                            showConfirmButton: false,
+                            timer: 3000
+                        })
                     }
                 })
             }
         })
+
+        function send_to_sheet() {
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwXT6FVqAyXBdGeSk9SZDp-0xUw2RBsQwfO_gegZCYqr121W5YRVZkHPggJvxW2q3qS/exec'
+            const form = document.forms['form-guest-book']
+            // const btnKirim = document.querySelector('#confirm')
+            // const btnLoading = document.querySelector('#btnloading')
+            // const showAlert = document.querySelector('#show-alert')
+
+            // form.addEventListener('submit', e => {
+            //     e.preventDefault()
+            //     // btnLoading.classList.toggle('hidden')
+            //     // btnKirim.classList.toggle('hidden')
+            // })
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    // showAlert.classList.toggle('hidden')
+                    // btnKirim.classList.toggle('hidden')
+                    // btnLoading.classList.toggle('hidden')
+                    form.reset()
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        }
+
+        // function view_guest(id = '') {
+        //     if (id) {
+
+        //     }
+        // }
 
         $(document).ready(function() {
             $('html, body').animate({
@@ -428,10 +530,12 @@ if ($wed == "" ||  $key == "") {
             }, 800);
             return false;
         });
+
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {
             event.preventDefault();
             $(this).ekkoLightbox();
         });
+
         $(document).on('click', '#buka-undangan', function() {
             $('#cover').fadeOut(1000, 'swing')
             $('body').removeClass('noscroll');
@@ -447,10 +551,10 @@ if ($wed == "" ||  $key == "") {
                     imageWidth: '100%',
                     imageAlt: 'Custom image',
                 })
-            }, 9999)
+            }, 5000)
         })
     </script>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v9.0&appId=151237495231910&autoLogAppEvents=1" nonce="gfzwA6qw"></script>
+    <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v9.0&appId=151237495231910&autoLogAppEvents=1" nonce="gfzwA6qw"></script> -->
     <script>
         $(document).ready(function(e) {
             var revapi = $(".rev_slider").revolution({
