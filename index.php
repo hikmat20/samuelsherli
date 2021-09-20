@@ -385,13 +385,29 @@ require_once 'models/timesince.php';
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="row">
 							<!-- <div class="col-md-offset-2 col-md-8 font-16 text-center">
-								<p class="pt-20" style="color:#bc4747">"Wanita dinikahi karena empat perkara; hartanya, keturunannya, kecantikannya dan
-									agamanya. Maka pilihlah Wanita yang taat agamanya, niscaya engkau beruntung.” <br>(HR. Al-
-									Bukhari no. 5090 dan Muslim no. 1466) -->
-							</p>
+								<p class="pt-20" style="color:#bc4747">
+								</p>
+								<p>(Matius 19:6)</p>
+							</div> -->
+						</div>
+						<!-- <div class="row">
+						</div> -->
+					</div>
+			</section>
+			<section class="divider parallax fullscreen layer-overlay" data-stellar-background-ratio="0.8" data-bg-img="images/wedding/bg/bg-quots.jpg">
+				<div class="display-table">
+					<div class="display-table-cell">
+						<div class="container pt-100 pb-">
+							<div class="row">
+								<div class="col-md-12 text-center">
+									<h1 class="tagline text-white font-48">
+										<span data-speed='50' class='typed-text-carousel' data-speed='300' data-back_delay='300' data-loop='true'>
+											<span>"Demikianlah mereka bukan lagi dua, melainkan satu. Karena itu, apa yang telah dipersatukan Allah, tidak boleh diceraikan manusia" - (Matius 19:6)</span>
+										</span>
+									</h1>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
