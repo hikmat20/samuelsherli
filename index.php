@@ -1083,15 +1083,15 @@ require_once 'models/timesince.php';
 
 			// Pop-Up Prokes COVID-19
 
-			// setTimeout(function() {
-			// 	Swal.fire({
-			// 		title: 'Protokol Kesehatan!',
-			// 		text: 'Para tamu undangan wajib menaati peraturan protokol kesehatan.',
-			// 		imageUrl: '/images/setting/porkes/prokes.jpg',
-			// 		imageWidth: '100%',
-			// 		imageAlt: 'Custom image',
-			// 	})
-			// }, 9999)
+			setTimeout(function() {
+				Swal.fire({
+					title: 'Protokol Kesehatan!',
+					text: 'Para tamu undangan wajib menaati peraturan protokol kesehatan.',
+					imageUrl: '/images/setting/porkes/prokes.jpg',
+					imageWidth: '100%',
+					imageAlt: 'Custom image',
+				})
+			}, 5000)
 		})
 	</script>
 

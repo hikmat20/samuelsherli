@@ -31,7 +31,7 @@ if ($wed == "" ||  $key == "") {
     </style>
     <script type="text/javascript" src="assets/1eba3f19/jquery.js"></script>
     <title>Undangan Pernikahan Sherli &amp; Samuel</title>
-    <link rel="shortcut icon" type="images/x-icon" href="images/setting/favicon/baleyuli2.png">
+    <link rel="shortcut icon" type="images/x-icon" href="images/wedding/logo/samuelsherli.png">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta name="description" content="Undangan Pernikahan Sherli & Samuel" />
     <meta name="keywords" content="undangan digital, undangan pernikahan, video undangan, jasa undangan, web pernikahan, gratis, web nikah, undangan online" />
@@ -51,10 +51,10 @@ if ($wed == "" ||  $key == "") {
     <meta property="og:description" content="22 September 2021 - @nikahalal.com" />
     <meta property="og:site_name" content="Undangan Digital Website Nikah Digital" />
     <meta property="og:url" content="https://nikahalal.com" />
-    <meta property="og:image" content="images/wedding/logo/baleyuli2.png" />
-    <link itemprop="thumbnailUrl" href="images/wedding/logo/baleyuli2.png">
-    <span itemprop="thumbnail" itemscope itemtype="images/wedding/logo/baleyuli2.png">
-        <link itemprop="url" href="images/wedding/logo/baleyuli2.png">
+    <meta property="og:image" content="images/wedding/logo/samuelsherli.png" />
+    <link itemprop="thumbnailUrl" href="images/wedding/logo/samuelsherli.png">
+    <span itemprop="thumbnail" itemscope itemtype="images/wedding/logo/samuelsherli.png">
+        <link itemprop="url" href="images/wedding/logo/samuelsherli.png">
     </span>
     <!-- <meta property="fb:app_id" content="168414063189010" />
     	<meta property="fb:admins" content="1236159042" /> -->
