@@ -1168,7 +1168,7 @@ require_once 'models/timesince.php';
 							<img src="/images/navy-rustic/section-title-after.svg" height="35px" alt="">
 							<div class="form-normal pb-100 form-horizontal clearfix mt-50">
 								<div class="col-lg-12">
-									<a href="/guest-book.php?wed=samuelsherli&key=cl21003&date=2021-09-22" class="btn btn-danger btn-lg"><i class="fa fa-book"></i> Isi Buku Tamu</a>
+									<a href="/guest-book.php?wed=samuelsherli&key=cl21003&date=2021-09-22&edate2021-09-23=" class="btn btn-danger btn-lg"><i class="fa fa-book"></i> Isi Buku Tamu</a>
 								</div>
 							</div>
 						</div>

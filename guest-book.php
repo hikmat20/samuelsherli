@@ -6,11 +6,12 @@ if (!isset($_GET['wed']) && !isset($_GET['key'])) {
     header('location:index.php');
 }
 
-$wed = $_GET['wed'];
-$key = $_GET['key'];
-$date = $_GET['date'];
+$wed    = $_GET['wed'];
+$key    = $_GET['key'];
+$date   = $_GET['date'];
+$edate  = $_GET['edate'];
 
-if ($wed == "" ||  $key == "") {
+if ($wed == "" || $key == "") {
     header('location:index.php');
     return false;
 } elseif ($wed != "samuelsherli" ||  $key != "cl21003") {
@@ -90,7 +91,6 @@ if ($wed == "" ||  $key == "") {
             overflow: overlay;
         }
 
-
         .svg-genders {
             fill: #BBAD62 !important;
         }
@@ -151,15 +151,6 @@ if ($wed == "" ||  $key == "") {
         ::-webkit-scrollbar-thumb:hover {
             background: #f1f1f13e;
         }
-
-
-
-
-        /* 
-@font-face {
-			font-family: AksaraJawa;
-			src: url(assets/fonts/AmellindaWeddings.otf);
-		} */
 
         .nav {
             position: fixed;
@@ -258,6 +249,8 @@ if ($wed == "" ||  $key == "") {
         </a>
     </nav> -->
     <input type="hidden" name="date" id="date" value="<?= $date; ?>">
+    <input type="hidden" name="edate" id="edate" value="<?= $edate; ?>">
+
     <div id="wrapper" class="clearfix">
         <!-- Header -->
 
@@ -367,14 +360,12 @@ if ($wed == "" ||  $key == "") {
             $('#front').show('ease');
             $('#guest_book').hide('ease');
             $('#souvenir').hide('ease');
-
         })
 
         $(document).on('click', '#btn-souvenir', function() {
             $('#front').hide('ease');
             $('#guest_book').hide('ease');
             $('#souvenir').show('ease');
-
         })
 
         $(document).on('click', '#save', function() {
@@ -382,6 +373,7 @@ if ($wed == "" ||  $key == "") {
             let phone = $('#handphone').val();
             let name = $('#guest_name').val();
             let date_event = $('#date').val();
+            let edate_event = $('#edate').val();
             let date = '<?= date('Y-m-d'); ?>';
             // alert(date_event + ", " + date)
             if (date < date_event) {
@@ -395,7 +387,7 @@ if ($wed == "" ||  $key == "") {
                 return false;
             }
 
-            if (date > date_event) {
+            if (date > edate_event) {
                 Swal.fire({
                     title: 'Perhatian!',
                     text: 'Acara Pernikahan Sudah berlalu.',
