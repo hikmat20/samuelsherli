@@ -282,15 +282,16 @@ if ($wed == "" || $key == "") {
                                         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                                         <strong>Perhatian!</strong> Sebelum mengambil souvenir, pastikan Kamu sudah mengisi buku tamu terlebih dahulu.
                                     </div>
+                                    <div id="alert"></div>
                                 </div>
                                 <div class="form-group pb-10">
                                     <label for="" class="col-md-2 text-left text-gray-darkgray">Masukan Nomor Handphone</label>
                                     <div class="col-lg-6 col-sm-10">
-                                        <input type="number" name="handphone" class="form-control" placeholder="08..." required>
+                                        <input type="number" name="handphone" id="phone" class="form-control" placeholder="08..." required>
                                     </div>
                                 </div>
                                 <div class="p-20 mt-30 text-center">
-                                    <button type="button" id="getSouvenir" class="btn btn-danger"><i class="fa fa-tag"></i> Ambil Souvenir</button>
+                                    <button type="button" onclick="getSouvenir()" id="getSouvenir" class="btn btn-danger"><i class="fa fa-tag"></i> Ambil Souvenir</button>
                                     <button type="button" class="btn btn-warning back"><i class="fa fa-reply"></i> Kembali</button>
                                 </div>
                             </div>
@@ -325,7 +326,7 @@ if ($wed == "" || $key == "") {
                                         </div>
                                         <hr>
                                         <button class="btn btn-danger text-left btn-lg btn-sm-block" type="button" id="save"><i class="fa fa-save"></i> Simpan</button>
-                                        <button class="btn btn-warning text-left btn-lg btn-sm-block" type="button" id="back"><i class="fa fa-save"></i> Kembali</button>
+                                        <button class="btn btn-warning text-left btn-lg btn-sm-block" type="button" id="back"><i class="fa fa-reply"></i> Kembali</button>
                                     </form>
                                 </div>
                             </div>
@@ -418,70 +419,74 @@ if ($wed == "" || $key == "") {
                     <strong>Peringatan!</strong> Nama harus diisi.
                 </div>`).fadeIn('ease')
 
+            } else {
+                if (formdata) {
+                    $.ajax({
+                        url: '/models/guestBook.php',
+                        data: formdata,
+                        dataType: 'JSON',
+                        type: 'POST',
+                        contentType: false,
+                        cache: false,
+                        processData: false,
+                        success: function(result) {
+                            if (result.status == 1) {
+                                send_to_sheet()
+                                Swal.fire({
+                                    title: 'Terima Kasih!',
+                                    text: result.msg,
+                                    type: 'success',
+                                    showConfirmButton: false,
+                                    timer: 3000
+                                }).then(() => {
+                                    location.reload();
+                                })
+                            } else if (result.status == 2) {
+                                Swal.fire({
+                                    title: 'Kamu Sudah Terdaftar!',
+                                    text: result.msg,
+                                    type: 'info',
+                                    // timer: 3000,
+                                    showCancelButton: true,
+                                    confirmButtonText: 'Lihat Data Tamu',
+                                    cancelButtonText: 'Lihat Nanti',
+                                }).then((res) => {
+                                    console.log(res.value);
+                                    if (res.value) {
+                                        $('#btn-souvenir').click();
+                                        // location.href = "/guest-book.php?wed=samuelsherli&key=cl21003&date=2021-09-22&guset=" + result.phone;
+                                    }
+                                })
+                            } else {
+                                Swal.fire({
+                                    title: 'Failed!',
+                                    text: result.msg,
+                                    type: 'warning',
+                                    showConfirmButton: false,
+                                    timer: 3000
+                                })
+                            }
+                        },
+                        error: function(result) {
+                            Swal.fire({
+                                title: 'Error!',
+                                text: result.msg,
+                                type: 'error',
+                                showConfirmButton: false,
+                                timer: 3000
+                            })
+                        }
+                    })
+                }
             }
+
             setTimeout(function() {
                 $('#alert').fadeOut('ease').html('');
             }, 3000)
 
             // return false;
 
-            if (formdata) {
-                $.ajax({
-                    url: '/models/guestBook.php',
-                    data: formdata,
-                    dataType: 'JSON',
-                    type: 'POST',
-                    contentType: false,
-                    cache: false,
-                    processData: false,
-                    success: function(result) {
-                        if (result.status == 1) {
-                            send_to_sheet()
-                            Swal.fire({
-                                title: 'Terima Kasih!',
-                                text: result.msg,
-                                type: 'success',
-                                showConfirmButton: false,
-                                timer: 3000
-                            }).then(() => {
-                                location.reload();
-                            })
-                        } else if (result.status == 2) {
-                            Swal.fire({
-                                title: 'Kamu Sudah Terdaftar!',
-                                text: result.msg,
-                                type: 'info',
-                                // timer: 3000,
-                                showCancelButton: true,
-                                confirmButtonText: 'Lihat Data Tamu',
-                                cancelButtonText: 'Lihat Nanti',
-                            }).then((res) => {
-                                console.log(res.value);
-                                if (res.value) {
-                                    location.href = "/guest-book.php?wed=samuelsherli&key=cl21003&date=2021-09-22&guset=" + result.phone;
-                                }
-                            })
-                        } else {
-                            Swal.fire({
-                                title: 'Failed!',
-                                text: result.msg,
-                                type: 'warning',
-                                showConfirmButton: false,
-                                timer: 3000
-                            })
-                        }
-                    },
-                    error: function(result) {
-                        Swal.fire({
-                            title: 'Error!',
-                            text: result.msg,
-                            type: 'error',
-                            showConfirmButton: false,
-                            timer: 3000
-                        })
-                    }
-                })
-            }
+
         })
 
         function send_to_sheet() {
@@ -510,11 +515,89 @@ if ($wed == "" || $key == "") {
                 .catch(error => console.error('Error!', error.message))
         }
 
+        function getSouvenir() {
+            let phone = $('#phone').val();
+            if (phone) {
+                $.ajax({
+                    url: 'models/getSouvenir.php',
+                    type: 'POST',
+                    dataType: 'JSON',
+                    data: {
+                        phone
+                    },
+                    success: function(result) {
+                        html = '';
+                        if (result != '') {
+                            html = `
+                            <div class="text-center p-50 pt-0">
+                            <div id="alert"></div>
+                            <label class="text-danger pt-50">Nama Tamu</label>
+                            <h3 class="text-muted font-36">` + result.guest_name + `</h3>
+                            <label class="text-danger pt-50">Handphone</label>
+                            <h4 class="text-muted">` + result.handphone + `</h4>
+                            <label class="text-danger pt-50">Instansi/Organisasi</label>
+                            <h4 class="text-muted">` + result.instansi + `</h4>
+                            <label class="text-danger pt-50">ALamat/Kota</label>
+                                <h4 class="text-muted">` + result.address + `</h4>
+                                <br>
+                                <button type="button" class="btn btn-warning" onclick="back()"><i class="fa fa-reply"></i> Kembali</button>    
+                            </div>
+                            `
+
+                            $('#souvenir').html(html);
+                        } else {
+                            $('#alert').html(`
+                                <div class="alert alert-danger">
+                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                    <strong>Maaf!</strong> Nomor Handphone tidak valid.
+                                </div>`).fadeIn('ease')
+
+                            setTimeout(function() {
+                                $('#alert').fadeOut('ease').html('');
+                            }, 3000)
+                        }
+                    },
+                    error: function(result) {
+                        Swal.fire({
+                            title: 'Error!',
+                            text: result.msg,
+                            type: 'error',
+                            showConfirmButton: false,
+                            timer: 3000
+                        })
+                    }
+                })
+            }
+        }
+
+        function back() {
+            html = `
+            <div class="p-20 text-center">
+                <div class="alert alert-warning">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <strong>Perhatian!</strong> Sebelum mengambil souvenir, pastikan Kamu sudah mengisi buku tamu terlebih dahulu.
+                </div>
+            </div>
+            <div class="form-group pb-10">
+                <label for="" class="col-md-2 text-left text-gray-darkgray">Masukan Nomor Handphone</label>
+                <div class="col-lg-6 col-sm-10">
+                    <input type="number" name="handphone" id="phone" class="form-control" placeholder="08..." required>
+                </div>
+            </div>
+            <div class="p-20 mt-30 text-center">
+                <button type="button" onclick="getSouvenir()" id="getSouvenir" class="btn btn-danger"><i class="fa fa-tag"></i> Ambil Souvenir</button>
+                <button type="button" class="btn btn-warning back"><i class="fa fa-reply"></i> Kembali</button>
+            </div>
+            `;
+
+            $('#souvenir').html(html);
+        }
         // function view_guest(id = '') {
         //     if (id) {
 
         //     }
         // }
+
 
         $(document).ready(function() {
             $('html, body').animate({
@@ -679,58 +762,6 @@ if ($wed == "" || $key == "") {
             document.getElementById('mute1').style.display = 'none';
             document.getElementById('un-mute1').style.display = 'inline-block';
         }
-    </script>
-    <script type="text/javascript">
-        // Send greeting
-        $(document).on('click', '#sendGreeting', function() {
-            // alert('send');
-            let name = $('#nama').val();
-            let greeting = $('#greeting').val();
-            if (name == '') {
-                alert("Isi Nama kamu dulu ya!");
-            } else if (greeting == '') {
-                alert("Jangan lupa kasih Ucapan dan Do'a kamu untuk kedua mempelai!");
-            } else {
-                let formData = new FormData($('#form-greeting')[0])
-                $.ajax({
-                    url: 'models/create_greeting.php',
-                    type: 'POST',
-                    data: formData,
-                    contentType: false,
-                    processData: false,
-                    async: false,
-                    dataType: 'JSON',
-                    beforeSend: function() {
-                        $('#alertMsg').html("<img src='images/loader.gif' height='40px'>").fadeIn('slow').slideDown('slow')
-                    },
-                    success: function(result) {
-                        if (result.code == 1) {
-                            $('#nama').val('');
-                            $('#greeting').val('');
-                            $('#alertMsg').html("<div class='alert alert-success'>" + result.msg + "</div>")
-                            $(`<div class="item m-10">
-										<div class="tetimonial-wrapper text-white shadow text-center border-radius-10px p-30" style="border:3px solidd #BBAD62;background: rgb(45, 90, 61); backdrop-filter: blur(20px);">
-											<p class="font-16">
-												` + result.greeting + `
-											</p>
-											<p class="mt-0 mb-15 font-16 text-theme-colore">-- ` + result.nama + ` --</p>
-										</div>
-									</div>
-								`).prependTo('#list-greeting').hide().fadeIn('3000');
-                            setTimeout(function() {
-                                $('.alert-success').fadeOut('slow');
-                            }, 2000)
-
-                        } else {
-                            $('#alertMsg').html("<div class='alert alert-danger'> " + result.msg + "</div>")
-                        }
-                    },
-                    error: function(result) {
-                        $('#alertMsg').html("<div class='alert alert-danger'>#Internal server error!!</div>")
-                    }
-                })
-            }
-        })
     </script>
 </body>
 
