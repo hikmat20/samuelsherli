@@ -1195,7 +1195,7 @@ require_once 'models/timesince.php';
 	</footer>
 	<!-- BACK TO TOP -->
 	<!-- <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a> -->
-	<!-- end wrapper -->
+
 	<script src="assets/js/jquery-2.2.0.min.js"></script>
 	<script src="assets/js/jquery-ui.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
